@@ -26,6 +26,7 @@ let button = document.querySelector('button');
 makeNewNumbers();
 let max_limit = 0;
 
+//DOM Event Listener
 
 form.addEventListener('submit', function aasync(event) {
   event.preventDefault();
